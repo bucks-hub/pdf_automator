@@ -1,12 +1,12 @@
 import os
 
 # PDF Configuration
-PDF_URL = "http://sw061240.bmwgroup.net/reporting/public/110_Intranet/05_Sensoren/Stunde/Sensorenberichte_alle_heute.pdf"
-SECTION_NAME = "Sensoren (gruppiert)"
+PDF_URL = "Link to the pdf file"
+SECTION_NAME = "Key word to filter the slideshow pages"
 
 # Path Configuration
-DOWNLOAD_FOLDER = "C:/Users/qxz60kx/Desktop/projects/pdf_automator/downloads"
-EXTRACTED_FOLDER = "C:/Users/qxz60kx/Desktop/projects/pdf_automator/downloads"
+DOWNLOAD_FOLDER = "folder to down the pdf file"
+EXTRACTED_FOLDER = "folder to save the extracted pdf file"
 OUTPUT_PDF = os.path.join(EXTRACTED_FOLDER, "current_slides.pdf")
 
 # Display Settings
